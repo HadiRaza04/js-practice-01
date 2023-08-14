@@ -1,5 +1,5 @@
 <h1 align="center">JS - Interview Questions.</h1>
-<h3 align="center">A passionate fullstack developer from Pakistan.</h3>
+<h3 align="center">Checkout JS file to see code.</h3>
 
 <ol>
     <li>
