@@ -24,10 +24,22 @@
     </li>
     <li>
         <h3>Sixth Question</h3>
-        <p>A function that Reverse a number e.g 1928, answer is: 8291</p>
+        <p>Write a JS Function that Reverse a number e.g 1928, answer is: 8291</p>
     </li>
     <li>
         <h3>Seventh Question</h3>
-        <p>Function that checks whether a string is palindrome or not ?</p>
+        <p>Write a JS Function that checks whether a string is palindrome or not ?</p>
+    </li>
+    <li>
+        <h3>Eighth Question</h3>
+        <p>Write a JS Function that returns a passed string with letters in alphabetical order ?</p>
+    </li>
+    <li>
+        <h3>Nineth Question</h3>
+        <p>Write a JS function that accepts a string as a parameter and converts the first letter of each word of the string in uppercase.</p>
+    </li>
+    <li>
+        <h3>Tenth Question</h3>
+        <p>Write a JS Function to get the no of occurrence of each letter in specified string.</p>
     </li>
 </ol>
