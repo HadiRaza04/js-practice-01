@@ -11,12 +11,12 @@ function isArray(element) {
 console.log(isArray([]));     // true
 console.log(isArray({}));     // false
 //=========================== 3) How to empty an array in JS
-var fillArr = [1, 2, 3, 4, 5, 6];
+let fillArr = [1, 2, 3, 4, 5, 6];
 console.log(fillArr.length);  // 6
 fillArr.length = 0;
 console.log(fillArr.length);  // 0
 //=========================== 4) How would you check if a numner is an integer Don't use "Number.isInteger()"
-var isInt = 12.0;
+let isInt = 12.0;
 if(isInt % 1 === 0){
     console.log("Integer");  // Integer
 } else {
@@ -67,3 +67,33 @@ function occ(elem) {
     return occurence;
 }
 console.log(occ("raza"));
+//=========================== 11) Loop an array and add all members of it
+let members = [1,2,3,4,5];
+let addMember = 0;
+members.forEach((member) => {
+    addMember += member;
+})
+console.log(addMember);   // 15
+//=========================== 12) In an array of numbers and string, only add those members which are not
+let memberrs = [1, "addMe", 122, "subtractMe", 4, "multiplyMe", "divideMe", 3];
+let summ = 0;
+memberrs.forEach((mem) => {
+    if(typeof mem === "number") {
+        summ += mem;
+    }
+})
+console.log(summ);        // 130
+//=========================== 13) JS Function to clone an array
+function cloneArr(arr) {
+    var newArrr = [];
+    arr.forEach((elem) => {
+        newArrr.push(elem);
+    })
+    return newArrr;
+}
+console.log(cloneArr([1,2,4,9]));
+
+
+
+
+

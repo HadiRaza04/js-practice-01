@@ -16,7 +16,7 @@
     </li>
     <li>
         <h3>Fourth Question</h3>
-        <p>How would you check if a numner is an integer ? Don't use "Number.isInteger()"</p>
+        <p>How would you check if a number is an integer ? Don't use "Number.isInteger()"</p>
     </li>
     <li>
         <h3>Fifth Question</h3>
@@ -41,5 +41,13 @@
     <li>
         <h3>Tenth Question</h3>
         <p>Write a JS Function to get the no of occurrence of each letter in specified string.</p>
+    </li>
+    <li>
+        <h3>Eleventh Question</h3>
+        <p>Loop an array and add all members of it.</p>
+    </li>
+    <li>
+        <h3>Twelveth Question</h3>
+        <p>In an array of numbers and string, only add those members which are not string.</p>
     </li>
 </ol>
